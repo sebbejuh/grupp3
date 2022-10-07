@@ -1,0 +1,49 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: auto;
+  }
+  .form input[type="number"] {
+    width: 150px;
+    border-radius: .4em;
+    background-color: rgba(216, 220, 222, 0.456);
+  }
+
+  .lastResult {
+    color: white;
+    padding: 10px;
+    border-radius: .4em;
+    width: 320px
+  }
+  .guessSubmit {
+    border-radius: .4em;
+    background-color: hsl(156, 86%, 19%);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 550;
+  }
+  .guessSubmit:hover {
+    background-color: hsl(156, 86%, 30%);
+  }
+  .tryAgain {
+    border-radius: .4em;
+    background-color: hsl(156, 86%, 19%);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 550;
+  }
+  .tryAgain:hover {
+    background-color: hsl(156, 86%, 30%);
+  }
+  .highLow {
+    color: white;
+    padding: 10px;
+    border-radius: .4em;
+    width: 320px    
+  }
